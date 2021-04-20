@@ -5,7 +5,7 @@ Updated dependencies:
 - pegdown 1.6.0
 - scalaCheck 1.14.1
 - added: org.scalatestplus-scalacheck 
-- Removed : Scala 2.11 and 2.12 
+- Removed : Scala 2.11 and 2.12 ( because of libs incompatibilities )
 - Removed : dependency to "SbtAutoBuildPlugin" (specific sbt template from https://dl.bintray.com/hmrc/sbt-plugin-releases)
 
 
