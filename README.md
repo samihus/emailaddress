@@ -12,7 +12,7 @@ Updated dependencies:
 emailaddress
 ==================
 
-[![Join the chat at https://gitter.im/hmrc/emailaddress](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hmrc/emailaddress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/hmrc/emailaddress.svg?branch=master)](https://travis-ci.org/hmrc/emailaddress) [ ![Download](https://api.bintray.com/packages/hmrc/releases/emailaddress/images/download.svg) ](https://bintray.com/hmrc/releases/emailaddress/_latestVersion)
+[![Join the chat at https://gitter.im/hmrc/emailaddress](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hmrc/emailaddress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/hmrc/emailaddress.svg?branch=master)](https://travis-ci.org/hmrc/emailaddress) 
 
 Scala micro-library for typing, validating and obfuscating email addresses
 
