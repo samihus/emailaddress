@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 HM Revenue & Customs
+ * Copyright 2021 HM Revenue & Customs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,11 +16,12 @@
 
 package uk.gov.hmrc.emailaddress
 
-import org.scalatest.prop.PropertyChecks
-import org.scalatest.{Matchers, WordSpec}
-import uk.gov.hmrc.emailaddress.EmailAddress.{Mailbox, Domain}
+import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
+import uk.gov.hmrc.emailaddress.EmailAddress.{Domain, Mailbox}
 
-class EmailAddressSpec extends WordSpec with Matchers with PropertyChecks with EmailAddressGenerators {
+class EmailAddressSpec extends AnyWordSpec with Matchers with ScalaCheckPropertyChecks with EmailAddressGenerators {
 
   "Creating an EmailAddress class" should {
     "work for a valid email" in {
